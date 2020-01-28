@@ -10,6 +10,7 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
+//Since we have lombok we do not need to create getters and setters.
 @ToString
 @Setter
 @Getter
