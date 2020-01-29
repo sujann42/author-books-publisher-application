@@ -1,4 +1,4 @@
-package com.suzan.springbootapp.model;
+package suzan.model;
 
 import lombok.Getter;
 import lombok.Setter;
