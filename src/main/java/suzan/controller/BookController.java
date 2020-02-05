@@ -1,7 +1,5 @@
 package suzan.controller;
 
-
-
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,6 +21,6 @@ public class BookController {
 
         model.addAttribute("books", bookRepository.findAll());
 
-        return "books/list";
+        return "books_list";
     }
 }
