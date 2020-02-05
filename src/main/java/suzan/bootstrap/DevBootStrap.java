@@ -50,6 +50,7 @@ public class DevBootStrap implements ApplicationListener<ContextRefreshedEvent> 
 
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
+
         initData();
     }
 }
